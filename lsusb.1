@@ -1,0 +1,26 @@
+.TH LSUSB 1 "September 2025" "lsusb for macOS" "User Commands"
+.SH NAME
+lsusb \- list USB devices
+.SH SYNOPSIS
+.B lsusb
+.SH DESCRIPTION
+The
+.B lsusb
+command is a macOS implementation of the Linux lsusb utility.  
+It displays information about USB buses in the system and the devices connected to them.
+
+For each device it prints:
+.IP \[bu] 2
+Vendor ID
+.IP \[bu] 2
+Product ID
+.IP \[bu] 2
+Device name (if available)
+
+.SH EXAMPLES
+List all USB devices:
+.PP
+.nf
+lsusb
+.fi
+
